@@ -243,7 +243,41 @@ color: white !important;
         
         }
 
- 
+        .-cont h2{
+          font-size: 1.2rem;
+          font-weight: bolder;
+          color: var(--base-color);
+        }
+
+        .-cont p{
+           color: #5E5E5E;
+           font-size: 0.9rem;
+        }
+
+ .footer li{
+
+font-size: 0.9rem;
+
+ }
+
+
+ .footer h3{
+    font-size: 1rem;
+    color: var(--base-color);
+ }
+
+ .cont-links h6{
+    font-size: 1rem;
+
+    color: #5E5E5E;
+ }
+
+ .cont-links i{
+    background-color: #47B2E4;
+    color: white;
+    padding: 0.4rem 0.6rem;
+    border-radius: 50%;
+ }
 
 
 
