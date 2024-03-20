@@ -90,9 +90,178 @@ transform: translateY(-10px);
 }
 
 
+.action{
+
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url('https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg') fixed center center;
+    background-size: cover;
+    padding: 4rem;
 
 
-@media only screen and (max-width:768px) {
+}
+
+.title {
+    color: var(--base-color);
+}
+
+
+.abt {
+    color: var(--base-color);
+}
+
+
+
+.btn-hov {
+    transition: all 0.5s;
+}
+
+.btn-hov:hover {
+    background: var(--bs-info);
+    color: white !important;
+}
+
+
+.overlay {
+    opacity: 0;
+    transition: all 0.3s;
+    background-color: rgba(55, 81, 126, 0.7) !important;
+}
+
+
+.img1 {
+    overflow: hidden;
+}
+
+.img1:hover .overlay {
+    opacity: 1;
+}
+
+.img {
+    transition: all 0.3s;
+}
+
+.img1:hover .img {
+    scale: 1.2;
+}
+
+
+.icon {
+    padding: 0.6rem;
+    background-color: #EFF2F8;
+    color: #37517E;
+    clip-path: circle();
+}
+
+
+.map {
+    border: 2px solid var(--bs-info);
+    border-right: 0;
+    border-left: 0;
+}
+
+.c-p{
+    font-size: 0.8rem;
+    color: var(--base-color);
+}
+
+.payment-card h2{
+    color: var(--base-color);
+}
+.payment-card h4{
+    color: var(--base-color);
+}
+
+
+.payment-card2 h2{
+    color: var(--base-color);
+}
+.payment-card2 h4{
+    color: var(--base-color);
+}
+
+.payment-card2 li{
+    color: #999999;
+}
+
+.payment-card3 h2{
+    color: var(--base-color);
+}
+.payment-card3 h4{
+    color: var(--base-color);
+}
+
+.payment-card3 li{
+    color: #999999;
+}
+
+
+.payment-card i{
+    color: #6EB393;
+}
+.payment-card li{
+    color: #999999;
+}
+
+
+
+.payment-card button{
+border: 2px solid #47B2E4 !important;
+background-color: white;
+color: #47B2E4 !important;
+align-self: flex-start;
+
+
+
+}
+
+.card button:hover{
+background-color: #47B2E4;
+color: white !important;
+}
+
+
+
+.payment-card2{
+    border-top: 3px solid #47B2E4 !important;
+}
+.payment-card2 button{
+    border: 2px solid #47B2E4 !important;
+    background-color: white;
+    color: #47B2E4 !important;
+    align-self: flex-start;
+    
+    
+    
+    
+    }
+    .payment-card3 button{
+        border: 2px solid #47B2E4 !important;
+        background-color: white;
+        color: #47B2E4 !important;
+        align-self: flex-start;
+        
+        
+        
+        }
+
+ 
+
+
+
+@media only screen and (max-width:768px){
+
+.landing {
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+
+}
+
+@media only screen and (max-width:768px){
     .front {
         height: 100vh;
     }
